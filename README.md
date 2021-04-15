@@ -1,3 +1,5 @@
+ [去除编译swift模块](去除swift编译.md)
+
 # Facebook SDK for iOS
 
 [![Platforms](https://img.shields.io/cocoapods/p/FBSDKCoreKit.svg)](https://cocoapods.org/pods/FBSDKCoreKit)
