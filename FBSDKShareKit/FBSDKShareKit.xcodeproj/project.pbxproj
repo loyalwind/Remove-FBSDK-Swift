@@ -1645,8 +1645,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 armv7 x86_64";
 			};
 			name = Debug;
@@ -1660,7 +1662,9 @@
 				DEFINES_MODULE = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 armv7 x86_64";
 			};
 			name = Release;

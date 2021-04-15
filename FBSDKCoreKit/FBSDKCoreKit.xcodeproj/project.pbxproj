@@ -4674,7 +4674,9 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				"FB_BITCODE_FLAG[sdk=iphoneos11.0]" = "-fembed-bitcode";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 armv7 x86_64";
 			};
 			name = Debug;
@@ -4687,7 +4689,9 @@
 				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				"FB_BITCODE_FLAG[sdk=iphoneos11.0]" = "-fembed-bitcode";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 armv7 x86_64";
 			};
 			name = Release;
